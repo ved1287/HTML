@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body bgcolor="Lightskyblue">
+    <h1>Employee Registration Form</h1>
+    <form action="success.html">
+        <table>
+            <tr>
+                <td>Name of Employee</td>
+                <td><input type="text" name="empName" required></td><br>
+            </tr>
+            <tr>
+                <td>
+                    Department
+                </td>
+                <td>
+                    <input type="text" name="department"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail
+                </td>
+                <td>
+                    <input type="email" name="email"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="M"><label>MALE</label>
+                    <input type="radio" name="gender" value="F"><label>FEMALE</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DOJ
+                </td>
+                <td>
+                    <input type="date" name="doj"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone No.
+                </td>
+                <td>
+                <input type="phoneNumber" name="phonenumber"> </td>
+            </tr>
+            <tr>
+                <td>
+                    Course 
+                </td>
+                <td>
+                    <select>
+                        <option value="Course">course</option>
+                        <option value="B.tech">B.tech</option>
+                        <option value="MBA">MBA</option>
+                        <option value="MCA">MCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Favourite News Paper
+                </td>
+                <td>
+                    <select name="fav_newspaper">
+                        <option value="1">The Hindu</option>
+                        <option value="2">Times of india </option>
+                        <option value="4"> Hindustan</option>
+                                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address
+                </td>
+                <td>
+                    <textarea rows="5" cols="80" name="address"> </textarea>
+                </td>
+            </tr>
+            <tr>
+               
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+        </table>
+
+       
+    </form>
+</body>
+</html>
